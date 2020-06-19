@@ -1,0 +1,467 @@
+@media only screen and (min-width: 768px) {
+    .header-button {
+        width: 30%;
+    }
+
+
+
+    .header-primary {
+        font-size: 3rem;
+        letter-spacing: 2rem;
+        padding: 50px 0px 15px 0;
+    }
+
+    .header-sub {
+        letter-spacing: .6rem;
+        font-weight: 500;
+        width: 70%;
+        padding-bottom: 20px;
+    }
+
+    .section-intro {
+        padding-left: 5em;
+        margin-top: -5em;
+    }
+
+
+    .row {
+        width: 60%;
+        margin: 0 auto
+    }
+
+    .card {
+
+        width: 50%;
+        margin-bottom: 4em;
+    }
+
+    .tours h2 {
+
+        font-size: 1.5em;
+        font-weight: 900;
+
+    }
+
+    .tour {
+
+        width: 50%;
+        margin: 2rem auto 5rem auto;
+
+    }
+
+    .tour-button {
+        width: 30%;
+        height: 50px;
+        font-size: 1em;
+    }
+
+    .review {
+
+        height: 125vh;
+
+    }
+
+    .bg-video__content {
+        opacity: 0.15;
+        width: 100%;
+        object-fit: cover;
+        height: 125vh;
+    }
+
+    .section-stories {
+
+        width: 60%;
+
+    }
+
+    .response {
+        clip-path: polygon(16% 0, 100% 0, 81% 100%, 0% 100%);
+        padding: 60px;
+    }
+
+    .form-section {
+        width: 50%;
+    }
+
+    .form-input button {
+
+        width: 50%;
+
+    }
+
+    .footer-logo {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .footer-nav {
+
+        font-size: 16px;
+
+
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    body {
+        padding: 2rem;
+    }
+
+    .header-primary {
+        font-size: 5rem;
+
+    }
+
+    .sticky {
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .logo {
+        margin: 1em;
+
+    }
+
+    .dashes {
+        width: 5rem;
+        height: 5rem;
+        padding-left: .5rem;
+
+
+
+    }
+
+    .dash {
+        margin: 7px 0 2px 13px;
+        width: 40px;
+        background-color: black;
+        height: 2px;
+
+    }
+
+    .header-sub {
+        font-size: .8em;
+        letter-spacing: .8rem;
+        font-weight: 500;
+        width: 70%;
+        padding-bottom: 20px;
+    }
+
+    .header-button {
+        width: 20%;
+
+        font-size: 1.3rem;
+        height: 70px;
+    }
+
+    .section-about {
+        width: 100%;
+        height: 140vh;
+    }
+
+    .section-intro {
+        width: 90%;
+        padding-left: 10rem;
+        margin: 5em auto 2em auto;
+    }
+
+    .main-header {
+        font-size: 3rem;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        justify-content: space-around
+    }
+
+    .left-container {
+        width: 40%;
+        font-size: 1.3rem;
+    }
+
+    .right-container {
+        width: 40%;
+    }
+
+    .images {
+        width: 400px;
+        height: 300px;
+        transition: width .5s;
+        transition: height .5s;
+    }
+
+    .images:hover {
+        width: 450px;
+        height: 350px;
+        padding: 1rem;
+        border: 1rem solid #55c57a;
+    }
+
+    .image-1 {
+        left: -100px;
+        top: -70px
+    }
+
+    .image-2 {
+
+        left: 250px;
+        top: -20px
+    }
+
+    .image-3 {
+        left: 70px;
+        top: 120px;
+    }
+
+    .cards {
+        display: flex;
+        /* height: 12vh; */
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        box-sizing: border-box;
+        padding: 20px;
+        margin-top: -50px;
+        font-size: 1.5em;
+        width: 20%;
+        height: 45%;
+        transition: margin-top .2s;
+
+    }
+
+    .card:hover {
+        margin-top: -100px;
+    }
+
+    .card i {
+        font-size: 3em;
+
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        padding: 25px 0;
+
+    }
+
+    .card p {
+        font-weight: 500;
+
+    }
+
+    .tours h2 {
+        font-size: 3em;
+        margin: 2em;
+        transform: scale(1);
+    }
+
+    .tours h2:hover {
+        font-stretch: expanded;
+        font-style: italic;
+        transform: scale(1.1);
+    }
+
+    .col-1-of-3 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        height: 70vh;
+    }
+
+    .tour {
+        position: relative;
+        width: 25%;
+        height: 100%;
+        padding: 0;
+        margin: 0 2rem;
+    }
+
+    .tour-top img {
+        height: 300px;
+        clip-path: polygon(0 0, 100% 0, 100% 88%, 0% 100%);
+        width: 100%;
+        background-color: linear-gradient(to right bottom, #ffb900, #ff7730);
+    }
+
+    .tour-header {
+        right: 20px;
+        top: 200px;
+        font-size: 2em;
+
+        width: 60%;
+        padding: 1rem 1.5rem;
+    }
+
+    .tour-1:hover,
+    .tour-2:hover,
+    .tour-3:hover {
+        transform: rotateY(180deg);
+        transition: transform .5s ease-in-out;
+        transform-style: preserve-3d;
+    }
+
+    .tour ul {
+        margin-top: 7rem;
+        padding: 3rem;
+    }
+
+    /* .tour .the-front .the-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+} */
+    .the-front,
+    .the-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .the-back {
+
+        transform: rotateY(180deg)
+    }
+
+
+    .price {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+        box-sizing: border-box;
+        padding: 0;
+        clip-path: none;
+    }
+
+    .price span {
+        font-size: 3em;
+
+    }
+
+    .price p {
+        font-size: 5em;
+        font-weight: 200;
+
+    }
+
+    .price button {
+        height: 75px;
+        width: 200px;
+        margin-top: 9em;
+    }
+
+    .tour-button {
+        width: 20%;
+        height: 75px;
+        font-size: 1.4rem;
+
+    }
+
+    #form {
+
+        padding: 10rem 0;
+    }
+
+    .response-card {
+        padding: 1rem 4rem;
+    }
+
+    .form-section {
+        background-image: linear-gradient(rgba(255, 255, 255, .1) 0%, rgba(255, 255, 255, .1) 100%, transparent 100%), url(../photo/mountain.jpg);
+        width: 80%;
+    }
+
+    .form-box {
+        width: 50%;
+        background-color: rgba(218, 230, 221, 0.9);
+        clip-path: polygon(0 0, 100% 0, 82% 100%, 0% 100%);
+        height: 600px;
+    }
+
+    .form-group input[type=text] {
+        height: 60px;
+        width: 80%;
+
+
+    }
+
+    .form-group label {
+        text-transform: capitalize;
+        padding-top: 20px;
+    }
+
+
+    .radio {
+        border-radius: 50%;
+        width: 1.5rem;
+        height: 1.5rem;
+        background-color: #eee;
+        border: 10px solid #55c57a;
+    }
+
+    .form-section h1 {
+        margin-top: 30px;
+
+        font-size: 3em;
+
+        font-weight: 700;
+
+    }
+
+    .radio-input {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 1.5rem;
+    }
+
+
+
+    .radio-box {
+        margin: 15px;
+    }
+
+    .form-input button {
+        font-size: 1.2em;
+        width: 40%;
+        height: 60px;
+        border: none;
+
+    }
+
+    .footer {
+        height: 500px;
+    }
+
+    .footer-logo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        padding: 30px 0;
+        border-bottom: 1px none whitesmoke;
+        padding-top: 8em;
+    }
+
+    .footer-nav {
+        font-size: 1.4em;
+
+    }
+
+    .footer-nav ul li {
+        margin: 2em .5em;
+    }
+
+}
